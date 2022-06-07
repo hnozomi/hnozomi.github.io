@@ -36,6 +36,14 @@ COBOL, JCL, MSP(OS), AOF
 <video controls src="/image/dTVチャンネル【初回31日間無料！】 - Google Chrome 2020-05-02 22-01-15.mp4" width="250" height="250">
 </video>
 
+<br>
+<br>
+<br>
+
+
+<video controls src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86630867-d7f2-43a4-b5ce-5dd77efa1a79/RPReplay_Final1616593649.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220607%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220607T080122Z&X-Amz-Expires=86400&X-Amz-Signature=c686a70aa8f2cb1cb2bf34b4fce6d0a2ad4e1b54338a83d6320c289b9cbd6b1f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22RPReplay_Final1616593649.MP4.mp4%22&x-id=GetObject" width="250" height="250">
+</video>
+
 ## 独学
 HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 
