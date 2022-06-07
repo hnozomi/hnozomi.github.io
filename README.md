@@ -97,6 +97,7 @@ HTML, CSS, Python(Django), heroku
 
 初めてどんなアプリを作ろうか、デザインをどうしようか、どうやってプログラムを組むのかなど考えて作ってて楽しかったし、できたときは嬉しかった
 
+<video src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/shareput.mp4"></video>
 
 ### MyBookRecord 2019/09/21
 
