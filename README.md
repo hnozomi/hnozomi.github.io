@@ -33,7 +33,7 @@ COBOL, JCL, MSP(OS), AOF
 ![Image](/image/dTVチャンネル【初回31日間無料！】 - Google Chrome 2020-05-02 22-01-15.mp4)
 
 <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-<video width="250">
+<video width="250" height="250">
 <source src="/image/dTVチャンネル【初回31日間無料！】 - Google Chrome 2020-05-02 22-01-15.mp4" type="video/mp4">
 </video>
 
