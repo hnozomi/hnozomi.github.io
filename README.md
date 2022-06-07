@@ -32,6 +32,11 @@ COBOL, JCL, MSP(OS), AOF
 ![Image](/image/beach-6514331_1920.jpg)
 ![Image](/image/dTVチャンネル【初回31日間無料！】 - Google Chrome 2020-05-02 22-01-15.mp4)
 
+<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+<video width="250">
+<source src="/image/dTVチャンネル【初回31日間無料！】 - Google Chrome 2020-05-02 22-01-15.mp4" type="video/mp4">
+</video>
+
 ## 独学
 HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 
