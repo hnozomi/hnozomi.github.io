@@ -8,7 +8,72 @@
 
 オープン側で言うと、JP1で実現していることを自社開発されたシステムを使用してメインフレームで
 
-<a href="https://e-words.jp/w/JP1.html" alt="JP1の説明"></a>
+JP1 とは
+[Link]("https://e-words.jp/w/JP1.html")
+
+#####　JCLのサンプル
+
+ファイルのコピー
+```js
+//IEBGENER JOB ,,CLASS=A,MSGCLASS=A,MSGLEVEL=(1,1)
+//*
+//*        COPY PS DATASET
+//*
+//IEBGENER EXEC PGM=IEBGENER
+//SYSPRINT DD SYSOUT=*
+//SYSUT1   DD DISP=SHR,DSN=XXXX.PS.DATASET1
+//SYSUT2   DD DISP=SHR,DSN=XXXX.PS.DATASET2
+//SYSIN    DD DUMMY
+```
+
+SORT
+
+```js
+//SORT     JOB ,,CLASS=A,MSGCLASS=A,MSGLEVEL=(1,1),REGION=8192K
+//*********************************************************************
+//*        Sample JCL for SORT
+//*        ===================
+//*********************************************************************
+//*********************************************************************
+//*        SORT EXEC JCL FOR IBM SYSTEM
+//*
+//*        SYSIN CONTROL CARD
+//*          SORT  FIELDS=(X,Y,FM,Z)
+//*            |           | | |  |
+//*            |           | | |  SORT PATTERN A;ASCEND
+//*            |           | | |               D;DESCEND
+//*            |           | | KEY TYPE CH;CHR
+//*            |           | |          BI;BIN
+//*            |           | |          ZD;ZONE
+//*            |           | |          PD;PACK
+//*            |           | KEY LNG(BYTE)
+//*            |           KEY START POINT
+//*            SORT;MERGE
+//*          RECORD TYPE=F|V,LENGTH=value
+//*
+//*        SORTWKnn DATASET MUST BE PLACED ON 2314 DISK ONLY.
+//*        OTHERWISE, IER042A - UNITS ASGN ERROR.
+//*        SORT/MERGE UTILITY INSTALLED FROM OS/360 MVT SYSTEM.
+//*********************************************************************
+//SORT     EXEC PGM=SORT,PARM='MSG=AP'
+//SORTLIB  DD DSN=SYS1.SORTLIB,DISP=SHR
+//SYSOUT   DD SYSOUT=*
+//SORTWK01 DD UNIT=SORT,SPACE=(CYL,10),VOL=SER=SORT01
+//SORTWK02 DD UNIT=SORT,SPACE=(CYL,10),VOL=SER=SORT02
+//SORTWK03 DD UNIT=SORT,SPACE=(CYL,10),VOL=SER=SORT03
+//SORTWK04 DD UNIT=SORT,SPACE=(CYL,10),VOL=SER=SORT04
+//SORTWK05 DD UNIT=SORT,SPACE=(CYL,10),VOL=SER=SORT05
+//SORTWK06 DD UNIT=SORT,SPACE=(CYL,10),VOL=SER=SORT06
+//SORTIN   DD DISP=SHR,DSN=USR1.PARMLIB(SORTDATA)
+//SORTOUT  DD SYSOUT=*,DCB=(RECFM=FB,BLKSIZE=4000,LRECL=80)
+//SYSIN    DD *
+  SORT  FIELDS=(40,10,CH,A)
+  RECORD TYPE=F,LENGTH=80
+  END
+//*
+
+```
+
 
 ジョブやプログラム、データセットなど本番で利用するリソースを登録・変更・削除する担当
 また、ジョブのトラブル対応のため夜勤
@@ -21,30 +86,31 @@
 メインフレーム 基盤構築・運用保守チーム配属
 
 メインフレームに関するインフラすべての担当
+
 ベンダーとやり取りしながら、機器のリプレイスや新たなシステムの導入の実施
+
+トラブル対応(365日24時間)
 
 運用をしていく中で必要な場合にCOBOLでの開発
 
-作成したプログラム
 
-　ログ管理システム用ID作成コマンドの自動生成
+#### 作成したプログラム
 
-　災害対策用コマンドの自動生成
-
-　災害対策対象ファイル抽出プログラム
-
-　災害対策コマンドの実行結果自動監視
+*   ログ管理システム用ID作成コマンドの自動生成
+*   災害対策用コマンドの自動生成
+*   災害対策対象ファイル抽出プログラム
+*   災害対策コマンドの実行結果自動監視
 
 使用スキル: COBOL, JCL, MSP(OS)
 
-主な案件
+#### 主な案件
 
-・ 災害対策システム構築
+*   災害対策システム構築
+*   仮想テープリプレイス作業
 
-・ 仮想テープリプレイス作業
+PTFアップ(OSのバージョンアップ時の確認作業), パラメータや監視設定の変更など
 
-・ PTFアップ
-
+* * *
 
 ## 保有資格
 社会人になってから取得した資格一覧
@@ -55,78 +121,87 @@ ITは関係ないがTOEICは675点(大学4回生で取得)
 
 認定日: 2017-02-05
 
+* * *
 
 資格名: LPIC-1 (5年経つため期限切れ状態)
 
 認定日: 2017-05-29
 
+* * *
 
 資格名: ITIL® Foundation Certificate in IT Service Management
 
 認定日: 2017/06/02
 
+* * *
 
 資格名: 基本情報技術者試験
 
 認定日: 2018-5-16
 
+* * *
 
 資格名: RPA Developer Foundation Diploma
 
 認定日: 2018-12-08
 
+* * *
 
 資格名: AWS Certified Solutions Architect – Associate
 
 認定日: 2019-07-17
 
+* * *
 
 資格名: AWS Certified Solutions Architect - Professional
 
 認定日: 2021-07-11
 
 
+* * *
+
 ## 独学
 
 仕事とは関係ないが、興味があったため勉強していた分野
 
-今後は独学で勉強していたことを仕事にしていきたい
-
-教材は
-
-2018年の夏ぐらいにProgate
-
-2019年の春ぐらいにPyQ
-
-適宜Udemyでの講座
-
 HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 
+今後は独学で勉強していたことを仕事にしていきたい
 
-### 過去に作成したもの
+#### 使用した教材
+
+*   Progate
+*   PyQ
+*   Udemy
+*   書籍
+
+
+* * *
+
+#### 過去に作成したもの
 
 転職活動を機に過去に勉強兼遊びで作成したアプリの振り返りを行う
 
 見出しは、アプリを作るときに決めた名前と大体の機能が完成した時の日付
 
-### 晩御飯決めアプリ 2019/03/31
+#### 晩御飯決めアプリ 2019/03/31
 
-・どんなアプリか
+##### どんなアプリか
 
 料理名を入力しておいて、ボタンを押すと入力してる料理からランダムで表示
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 一人暮らしをしていて、晩御飯に何を食べようかいつも迷っていたためランダムで決めてくれるものがあればいいなと思い作成
 
 
-・　使用技術
+##### 使用した技術
 
 HTML, CSS, Python(Flask)
 
 
-・　振り返ってみて
+##### 振り返ってみて
 
 初めて作るアプリっぽいもので試行錯誤しながら作成した記憶
 機能としては一応できたが、レスポンシブ対応ができなくて挫折
@@ -135,6 +210,8 @@ HTML, CSS, Python(Flask)
 写真しか残っていない
 
 <img src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/foodchoice.png" />
+
+* * *
 
 ### SHARE PUT　2019/8/3
 
@@ -166,6 +243,8 @@ HTML, CSS, Python(Django), heroku
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/shareput.mp4"></video>
 
+* * *
+
 ### MyBookRecord 2019/09/21
 
 ・どんなアプリか
@@ -193,6 +272,8 @@ HTML, CSS, Python(Django), LINE API, DialogFlow, 楽天API , EC2
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mybookrecord.mp4"></video>
 
+* * *
+
 ### ポートフォリオ 2019/12/08
 
 ・どんなアプリか
@@ -215,6 +296,8 @@ HTML, CSS, JavaScript, GoogleApplicationScript(スプレッドシートをデー
 とりあえずダサくて恥ずかしくなった
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/portfolio.mp4"></video>
+
+* * *
 
 ### Troument 2020/07/10
 
@@ -249,6 +332,7 @@ Troumentはアプリを作るようになってバグにいっぱい遭遇した
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/troument.mp4"></video>
 
+* * *
 
 ### いいね検索アプリ 2020/08/22
 
@@ -274,6 +358,9 @@ APIでさかのぼれる件数が決まっていて自分の理想にはなら�
 
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/iinesearch.mp4"></video>
+
+* * *
+
 
 ### サブスク管理 2021/03/24
 
@@ -305,6 +392,7 @@ React, LINE Messaging API, vercel, AWS_Lambda, AWS_API_GateWay, postgreSQL
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/subscription.mp4"></video>
 
+* * *
 
 ### メール翻訳 2021/06/21
 
@@ -332,6 +420,8 @@ React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mailtranslate.mp4"></video>
 
+* * *
+
 ### ラズパイ 2021/07/15
 
 作ったものではないが、興味があるため記述
@@ -350,6 +440,7 @@ React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3
 
 シャッターを取り付けるところから始める必要あり
 
+* * *
 
 ### バーコードスキャナ 2021/11/23
 
@@ -375,6 +466,7 @@ React, AWS_Lambda(Python), NotionAPI, 楽天API
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/barcode.mp4"></video>
 
+* * *
 
 ### ガチャガチャアプリ 2021/12/24
 
@@ -402,6 +494,7 @@ React, TypeScript, AWS_S3, AWS_Lambda, Next.js, GraphQL, faunaDB, vercel
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/gachagacha.mp4"></video>
 
+* * *
 
 ### レシピ管理アプリ 2022/03/24
 
@@ -427,6 +520,7 @@ React, TypeScript, AWS_Lambda(Python), faunaDB, GraphQL, LINEAPI
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/recipemanagement.mp4"></video>
 
+* * *
 
 ### GPSアプリ 2022/04/16
 
@@ -450,6 +544,7 @@ React
 謎解きやストーリー性を重視する必要がありプログラミング以外の比重が大きい。
 あと、GPSの精度を上手いこと取れないことがあった。
 
+* * *
 
 ### 図書館アプリ 現在作成中
 
@@ -471,3 +566,4 @@ React, TypeScript, Lambda, PostgreSQL, 楽天API
 作成途中
 
 
+* * *
