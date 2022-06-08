@@ -96,6 +96,7 @@ SORT
 
 運用をしていく中で必要な場合にCOBOLでの開発
 
+<br/><br/>
 
 #### 作成したプログラム
 
@@ -106,6 +107,8 @@ SORT
 
 使用スキル: COBOL, JCL, MSP(OS)
 
+<br/><br/>
+
 #### 主な案件
 
 *   災害対策システム構築
@@ -113,9 +116,7 @@ SORT
 
 PTFアップ(OSのバージョンアップ時の確認作業), パラメータや監視設定の変更など
 
-
-
-
+<br/><br/>
 
 ## 保有資格
 社会人になってから取得した資格一覧
@@ -177,9 +178,7 @@ ITは関係ないがTOEICは675点(大学4回生で取得)
 
 認定日: 2021-07-11
 
-
-
-
+<br/><br/>
 
 ## 独学
 
@@ -188,6 +187,8 @@ ITは関係ないがTOEICは675点(大学4回生で取得)
 HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 
 今後は独学で勉強していたことを仕事にしていきたい
+
+<br/><br/>
 
 ### 使用した教材
 
@@ -198,12 +199,15 @@ HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 
 
 * * *
+<br/><br/>
 
 ### 過去に作成したもの
 
 転職活動を機に過去に勉強兼遊びで作成したアプリの振り返りを行う
 
 見出しは、アプリを作るときに決めた名前と大体の機能が完成した時の日付
+
+<br/><br/>
 
 #### 晩御飯決めアプリ 2019/03/31
 
@@ -232,27 +236,27 @@ HTML, CSS, Python(Flask)
 
 <br/><br/>
 
-### SHARE PUT　2019/8/3
+#### SHARE PUT　2019/8/3
 
-・どんなアプリか
+##### どんなアプリか
 
 勉強したことをアウトプット、他の人の投稿を見てインプットするアプリ
 
 共有のSHAREとINPUT・OUTPUTのPUTを取って、SHARE PUT
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 勉強したことをまとめることは良いと思いつつも記事にするのはなかなか大変なのでSNS感覚で投稿できるものが
 あればいいなと思い作成
 
 
-・　使用技術
+##### 使用した技術
 
 HTML, CSS, Python(Django), heroku
 
 
-・　どうなったか
+##### 振り返ってみて
 
 使い物にはならないが、ある程度の形になったことは嬉しかった。
 
@@ -262,82 +266,80 @@ HTML, CSS, Python(Django), heroku
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/shareput.mp4"></video>
 
+<br/><br/>
 
+#### MyBookRecord 2019/09/21
 
-
-
-### MyBookRecord 2019/09/21
-
-・どんなアプリか
+##### どんなアプリか
 
 読んだ本の登録とメモを残すことでできるアプリ
 
 LINEを使用して対話的に登録できる
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 読書が好きで気に入った文章や言葉があればメモしてExcelにまとめていた。
 
 少しずつプログラムを組めるようになってきて、自分で管理するアプリを作ってみたいと思ったのがきっかけ
 
 
-・　使用技術
+##### 使用した技術
 
 HTML, CSS, Python(Django), LINE API, DialogFlow, 楽天API , EC2
 
 
-・　どうなったか
+##### 振り返ってみて
 
 今まではExcelにまとめていたため、パソコンに向かって書いていたのをスマホでも気軽に書けるようにしたいと思ったが好きな文章が長くなると書くのが面倒くさくなりパソコンの方が結局楽という結論に至った
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mybookrecord.mp4"></video>
 
-* * *
+<br/><br/>
 
-### ポートフォリオ 2019/12/08
+#### ポートフォリオ 2019/12/08
 
-・どんなアプリか
+##### どんなアプリか
 
 自己紹介アプリ
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 ポートフォリオという存在を知り、自分も欲しいなと思ったのがきっかけ
 
 
-・　使用技術
+##### 使用した技術
 
 HTML, CSS, JavaScript, GoogleApplicationScript(スプレッドシートをデータベースにしたため), AWS_S3(ホスティング)
 
 
-・　どうなったか
+##### 振り返ってみて
 
 とりあえずダサくて恥ずかしくなった
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/portfolio.mp4"></video>
 
-* * *
+<br/><br/>
 
-### Troument 2020/07/10
+#### Troument 2020/07/10
 
-・どんなアプリか
+##### どんなアプリか
 
 現在つまづいているエラーや解決したエラーを投稿できるアプリ
 
 Trouble managementの造語
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 少しずつアプリっぽいものを作っているなかでエラーがよく出ていたので、エラー中やエラー解決などを投稿するSNSを作ろうと思ったため
 
-・　使用技術
+##### 使用した技術
 
 React、AWS_S3, Node.js(Express), MongoDB
 
 
-・　振り返ってみて
+##### 振り返ってみて
 
 勉強会に参加したことをきっかけにReactに興味を持ったため、Reactでの初めての開発
 
@@ -353,24 +355,24 @@ Troumentはアプリを作るようになってバグにいっぱい遭遇した
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/troument.mp4"></video>
 
-* * *
+<br/><br/>
 
-### いいね検索アプリ 2020/08/22
+#### いいね検索アプリ 2020/08/22
 
-・どんなアプリか
+##### どんなアプリか
 
 Twitterでいいねしたツイートを検索できるアプリ
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 Twitter APIの存在を知って使ってみたくなった ＋ 自分がいいねしてるツイートを見たくなった時にさかのぼって見るのが面倒だったので検索できたらいいなと思ったから
 
-・　使用技術
+##### 使用した技術
 
 React, AWS_APIGateWay, AWS_Lambda, Python, TwitterAPI
 
-・　どうなったか
+##### 振り返ってみて
 
 APIでさかのぼれる件数が決まっていて自分の理想にはならなかった
 
@@ -380,26 +382,25 @@ APIでさかのぼれる件数が決まっていて自分の理想にはなら�
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/iinesearch.mp4"></video>
 
-* * *
+<br/><br/>
 
+#### サブスク管理 2021/03/24
 
-### サブスク管理 2021/03/24
-
-・どんなアプリか
+##### どんなアプリか
 
 登録しているサブスクの合計金額や更新日が近くなればメールを送信するアプリ
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 色々なサブスクリプションに登録しててどのぐらい月額かかっているか知りたかったのと、サブスクの解除を忘れて更新されることがあったため
 
 
-・　使用技術
+##### 使用した技術
 
 React, LINE Messaging API, vercel, AWS_Lambda, AWS_API_GateWay, postgreSQL 
 
-・　どうなったか
+##### 振り返ってみて
 
 サブスクを登録した時点でこのアプリにも自動で登録できる仕組みを実現させたかったけど、どうすればいいかわからず実用的に使えるとこまで持って行けず
 サブスクの解除を後回しにする人は、サブスクの登録も後回しにするため意味がなくなる
@@ -413,27 +414,27 @@ React, LINE Messaging API, vercel, AWS_Lambda, AWS_API_GateWay, postgreSQL
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/subscription.mp4"></video>
 
-* * *
+<br/><br/>
 
-### メール翻訳 2021/06/21
+#### メール翻訳 2021/06/21
 
-・どんなアプリか
+##### どんなアプリか
 
 英語で届いたメールを翻訳して再度受信できるアプリ
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 英語のメールが届いた時に、何が書いているかわからず日本語で読みたくなったことがあるため
 
 Gメールは翻訳できるっぽいけど、Yahooメールには翻訳機能が無さそう
 
 
-・　使用技術
+##### 使用した技術
 
 React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3
 
-・　どうなったか
+##### 振り返ってみて
 
 あんまり英語のメール届かない ＆ 定型的なメールなのでなんとなく意味がわかる
 
@@ -441,9 +442,9 @@ React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mailtranslate.mp4"></video>
 
-* * *
+<br/><br/>
 
-### ラズパイ 2021/07/15
+#### ラズパイ 2021/07/15
 
 作ったものではないが、興味があるため記述
 
@@ -461,52 +462,52 @@ React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3
 
 シャッターを取り付けるところから始める必要あり
 
-* * *
+<br/><br/>
 
-### バーコードスキャナ 2021/11/23
+#### バーコードスキャナ 2021/11/23
 
-・どんなアプリか
+##### どんなアプリか
 
 読んだ本のバーコードをスキャンして取得した情報をNotionに登録できるアプリ
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 読んだ本をNotionにまとめようとしたが入力するのも面倒なため、バーコードから取得できる情報一括で登録できたら楽だと思ったため
 
 
-・　使用技術
+##### 使用した技術
 
 React, AWS_Lambda(Python), NotionAPI, 楽天API
 
 
-・　どうなったか
+##### 振り返ってみて
 
 他の人も使えるように変更を加えてる途中で次に作りたいものができたため、途中で止まっている状態。
 自分だけなら使える
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/barcode.mp4"></video>
 
-* * *
+<br/><br/>
 
-### ガチャガチャアプリ 2021/12/24
+#### ガチャガチャアプリ 2021/12/24
 
-・どんなアプリか
+##### どんなアプリか
 
 自分達の思い出の写真をガチャガチャの中身にできるアプリ
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 単純に楽しそうと思ったから
 友達同士でグループを作成して、お互いがどんな写真をアップロードしたかわからない状態で引くと楽しそう
 
 
-・　使用技術
+##### 使用した技術
 
 React, TypeScript, AWS_S3, AWS_Lambda, Next.js, GraphQL, faunaDB, vercel
 
-・　どうなったか
+##### 振り返ってみて
 
 ちゃんと使えるレベルまでは程遠いが遊びレベルでは使える状態
 動きがもっさりしている
@@ -515,76 +516,76 @@ React, TypeScript, AWS_S3, AWS_Lambda, Next.js, GraphQL, faunaDB, vercel
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/gachagacha.mp4"></video>
 
-* * *
+<br/><br/>
 
-### レシピ管理アプリ 2022/03/24
+#### レシピ管理アプリ 2022/03/24
 
-・どんなアプリか
+##### どんなアプリか
 
 複数のアプリでお気に入りにしたレシピを一つに統合できるアプリ
 また、そのレシピに対してメモを残せる
 
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 複数のレシピアプリを使用したいるが、どのアプリでどのレシピを登録したか忘れたり、作った料理が美味しかったか。次作るとしたらもうちょっとこうしたいなどのメモを残せるようにしたかった
 
 
-・　使用技術
+##### 使用した技術
 
 React, TypeScript, AWS_Lambda(Python), faunaDB, GraphQL, LINEAPI
 
 
-・　どうなったか
+##### 使用した技術
 
 マナーに反するので使うのはやめておいた
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/recipemanagement.mp4"></video>
 
-* * *
+<br/><br/>
 
-### GPSアプリ 2022/04/16
+#### GPSアプリ 2022/04/16
 
-・どんなアプリか
+##### どんなアプリか
 
 謎解きしつつ、目的地を目指すアプリ
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 接触確認アプリ(COCOA)をスマホに入れた時、どういう仕組みか気になって
 GPSの技術を使ってみたくなったから
 
 最初はすれ違い機能みたいなことしたかったが、あまり仕組みがわからなかったためとりあえず出来そうな範囲でやってみることにした
 
-・　使用技術
+##### 使用した技術
 
 React
 
-・　どうなったか
+##### 振り返ってみて
 
 謎解きやストーリー性を重視する必要がありプログラミング以外の比重が大きい。
 あと、GPSの精度を上手いこと取れないことがあった。
 
-* * *
+<br/><br/>
 
-### 図書館アプリ 現在作成中
+#### 図書館アプリ 現在作成中
 
-・どんなアプリか
+##### どんなアプリか
 
 書籍貸し出しアプリ(知り合い限定)
 
-・　作ろうと思った理由
+##### 作ろうと思った理由
 
 家に色々本はあるがずっと読んでいる訳ではないので誰か読みたい人がいれば貸し出せたらいいかなと思ったため。
 知り合いなので口頭や他の手段でやり取りすればいいが作ってみたくなったため
 
-・　使用技術
+##### 使用した技術
 
 React, TypeScript, Lambda, PostgreSQL, 楽天API
 
-・　どうなったか
+##### 振り返ってみて
 
 作成途中
 
 
-* * *
+<br/><br/>
