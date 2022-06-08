@@ -230,9 +230,7 @@ HTML, CSS, Python(Flask)
 
 <img src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/foodchoice.png" />
 
-
-
-
+<br/><br/>
 
 ### SHARE PUT　2019/8/3
 
