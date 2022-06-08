@@ -119,64 +119,16 @@ PTFアップ(OSのバージョンアップ時の確認作業), パラメータ�
 <br/><br/>
 
 ## 保有資格
-社会人になってから取得した資格一覧
 
-ITは関係ないがTOEICは675点(大学4回生で取得)
-
-* * *
-
-
-資格名: ITパスポート
-
-認定日: 2017-02-05
-
-
-* * *
-
-
-資格名: LPIC-1 (5年経つため期限切れ状態)
-
-認定日: 2017-05-29
-
-
-* * *
-
-
-資格名: ITIL® Foundation Certificate in IT Service Management
-
-認定日: 2017/06/02
-
-
-* * *
-
-
-資格名: 基本情報技術者試験
-
-認定日: 2018-5-16
-
-
-* * *
-
-
-資格名: RPA Developer Foundation Diploma
-
-認定日: 2018-12-08
-
-
-* * *
-
-
-資格名: AWS Certified Solutions Architect – Associate
-
-認定日: 2019-07-17
-
-
-* * *
-
-
-資格名: AWS Certified Solutions Architect - Professional
-
-認定日: 2021-07-11
+資格名(取得日)
+*   TOEIC 675点(2016)
+*   ITパスポート(2017-02-05)
+*   LPIC-1(2017-05-29) → 5年経つため期限が切れている可能性
+*   ITIL® Foundation Certificate in IT Service Management(2017/06/02)
+*   基本情報技術者試験(2018-5-16)
+*   RPA Developer Foundation Diploma(2018-12-08)
+*   AWS Certified Solutions Architect – Associate(2019-07-17)
+*   AWS Certified Solutions Architect - Professional(2021-07-11)
 
 <br/><br/>
 
@@ -197,16 +149,15 @@ HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 *   Udemy
 *   書籍
 
-
-* * *
 <br/><br/>
 
 ### 過去に作成したもの
 
 転職活動を機に過去に勉強兼遊びで作成したアプリの振り返りを行う
 
-見出しは、アプリを作るときに決めた名前と大体の機能が完成した時の日付
+ポートフォリオになるかわからないが、現状のスキル状況を伝える1つの手段になればいいかなと思う
 
+見出しは、アプリを作るときに決めた名前と大体の機能が完成した時の日付
 <br/><br/>
 
 #### 晩御飯決めアプリ 2019/03/31
@@ -228,9 +179,13 @@ HTML, CSS, Python(Flask)
 
 ##### 振り返ってみて
 
-初めて作るアプリっぽいもので試行錯誤しながら作成した記憶
+初めて作るアプリっぽいもので訳わからずとりあえず手を動かしていたはず
 機能としては一応できたが、レスポンシブ対応ができなくて挫折
 
+Pythonはできたら色々と幅が広がりそうだと言う理由で採用
+Web系では、PHPとかRubyがよく使われてることを知らなかった
+
+<br/><br/>
 
 <img src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/foodchoice.png" />
 
@@ -240,7 +195,7 @@ HTML, CSS, Python(Flask)
 
 ##### どんなアプリか
 
-勉強したことをアウトプット、他の人の投稿を見てインプットするアプリ
+勉強したことをアウトプットするために投稿、他の人の投稿を見てインプットするアプリ
 
 共有のSHAREとINPUT・OUTPUTのPUTを取って、SHARE PUT
 
@@ -260,9 +215,13 @@ HTML, CSS, Python(Django), heroku
 
 使い物にはならないが、ある程度の形になったことは嬉しかった。
 
-レスポンシブ対応もできたはず
+レスポンシブ対応もある程度できて1つ目と比べて成長を感じられた
 
-初めてどんなアプリを作ろうか、デザインをどうしようか、どうやってプログラムを組むのかなど考えて作ってて楽しかったし、できたときは嬉しかった
+デザインをどうしようか、どんな機能があればいいかなとかをちゃんと考えていたアプリ
+
+やっぱり自分で書いたコード動いた瞬間は楽しいね
+
+<br/><br/>
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/shareput.mp4"></video>
 
@@ -286,12 +245,22 @@ LINEを使用して対話的に登録できる
 
 ##### 使用した技術
 
-HTML, CSS, Python(Django), LINE API, DialogFlow, 楽天API , EC2
+HTML, CSS, Python(Django), LINE API, DialogFlow, 楽天API , EC2, Route53
 
 
 ##### 振り返ってみて
 
-今まではExcelにまとめていたため、パソコンに向かって書いていたのをスマホでも気軽に書けるようにしたいと思ったが好きな文章が長くなると書くのが面倒くさくなりパソコンの方が結局楽という結論に至った
+作ってるときは割と便利なんじゃないかと思ってワクワクしていた。
+
+けど、好きな文章が長くなるとスマホで打つのは面倒だったり、LINEで対話的に登録するメリットもないし使う側の目線が完全に抜けていたなと反省
+
+多分LINE APIの存在を知って使いたくなった結果こんな感じになった
+
+<br/><br/>
+
+<img src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mybookrecord_chart.jpg" />
+
+<br/><br/>
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mybookrecord.mp4"></video>
 
@@ -311,12 +280,14 @@ HTML, CSS, Python(Django), LINE API, DialogFlow, 楽天API , EC2
 
 ##### 使用した技術
 
-HTML, CSS, JavaScript, GoogleApplicationScript(スプレッドシートをデータベースにしたため), AWS_S3(ホスティング)
+HTML, CSS, JavaScript, GoogleApplicationScript(スプレッドシートをデータベースに使用), AWS_S3(ホスティング)
 
 
 ##### 振り返ってみて
 
 とりあえずダサくて恥ずかしくなった
+
+<br/><br/>
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/portfolio.mp4"></video>
 
@@ -328,11 +299,11 @@ HTML, CSS, JavaScript, GoogleApplicationScript(スプレッドシートをデー
 
 現在つまづいているエラーや解決したエラーを投稿できるアプリ
 
-Trouble managementの造語
+アプリ名は、Trouble managementを略した言葉
 
 ##### 作ろうと思った理由
 
-少しずつアプリっぽいものを作っているなかでエラーがよく出ていたので、エラー中やエラー解決などを投稿するSNSを作ろうと思ったため
+アプリっぽいものを作っていると絶対にエラーが出るので、エラー中の報告やエラー解決などの投稿ができるSNSを作ろうと思ったため
 
 ##### 使用した技術
 
@@ -343,15 +314,18 @@ React、AWS_S3, Node.js(Express), MongoDB
 
 勉強会に参加したことをきっかけにReactに興味を持ったため、Reactでの初めての開発
 
-2月ぐらいから作成しててめっちゃ時間かかってる
+2月ぐらいから作成しててめっちゃ時間かかっててびっくり
 
-今思うと、2つめに作ろうとしたSHARE PUTと似ている
+Adobe製品を使ってデザインをちゃんと考えてみようと思ったりしたこともあって時間かかったのかも
 
-SHARE PUTのときはアプリを作っていなかったためあんまりエラーってものに遭遇していなかったためテキストで勉強してる知識を共有
+自分のプログラミングスキルが全然足りていないという理由はもちろんあるが、個人レベルでユーザー数を必要とするアプリを作るのは無理があるなと思った。
 
-Troumentはアプリを作るようになってバグにいっぱい遭遇したため、エラーに特化したものを作ろうとした気がする
+ユーザーを集める努力も必要になるし、デザイン考えて、コーディングして、インフラも意識するって難易度高すぎる。。。
 
-プラットフォーム系のアプリは個人のレベルでは
+他の人が使わなくても自分だけが使えるアプリを目指すのが現状の目標
+
+
+<br/><br/>
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/troument.mp4"></video>
 
@@ -374,13 +348,15 @@ React, AWS_APIGateWay, AWS_Lambda, Python, TwitterAPI
 
 ##### 振り返ってみて
 
-APIでさかのぼれる件数が決まっていて自分の理想にはならなかった
+APIでさかのぼれる件数(確か 200件)が決まっていて自分の理想にはならなかった
 
-余談でTwitter APIで100日以上投稿がない人のフォローを外すプログラムを組んでいるときに、フォローを外す処理を条件外の箇所に書いて
+LINE APIの時と同じでAPIを使ってみたかっただけの可能性大
+
+Twitter APIで100日以上投稿がない人のフォローを外すプログラムを組んでいるときに、フォローを外す処理を条件外に書いて
 全員のフォローを外してしまうミスを犯した
+もし仕事やったらめっちゃ怒られてそう
 
-
-<video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/iinesearch.mp4"></video>
+<video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/TwitterAPI.mp4"></video>
 
 <br/><br/>
 
@@ -390,27 +366,32 @@ APIでさかのぼれる件数が決まっていて自分の理想にはなら�
 
 登録しているサブスクの合計金額や更新日が近くなればメールを送信するアプリ
 
-
 ##### 作ろうと思った理由
 
-色々なサブスクリプションに登録しててどのぐらい月額かかっているか知りたかったのと、サブスクの解除を忘れて更新されることがあったため
+色々なサブスクリプションに登録しててどのぐらい月額かかっているか把握ことと、サブスクの解除を忘れて更新されることがあったため
 
 
 ##### 使用した技術
 
-React, LINE Messaging API, vercel, AWS_Lambda, AWS_API_GateWay, postgreSQL 
+React, TypeScript, LINE Messaging API, vercel, AWS_Lambda(Python), AWS_API_GateWay, postgreSQL 
 
 ##### 振り返ってみて
 
 サブスクを登録した時点でこのアプリにも自動で登録できる仕組みを実現させたかったけど、どうすればいいかわからず実用的に使えるとこまで持って行けず
-サブスクの解除を後回しにする人は、サブスクの登録も後回しにするため意味がなくなる
+
+サブスクの解除を忘れるパターンの大半は、気づいても後で解除しておこうと問題を後回しにしてしまうこと(自分の場合)
+
+解除を後回しにする人は、サブスクの登録も後回しにして結局このアプリ自体にも登録されていなくて気づかないパターンが発生する可能性大
 
 すぐに登録したくなるようなデザイン設計ができれば良いが、そんなスキルは自分にはなかった
 
 あと、課金日がいつかわからず正確な情報が取得できなかった。
 
-5/31日に登録されたサブスクの次の課金日は 6/30 か 7/1 どっちになるのかがアプリによって違う気がしたため
+例えば、5/31日に登録されたサブスクの次の課金日は 6/30 か 7/1 どっちになるのかがアプリによって違う気がしたため
+
 アプリ内では月末(6/30)になるようにした
+
+<br/><br/>
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/subscription.mp4"></video>
 
@@ -432,13 +413,15 @@ Gメールは翻訳できるっぽいけど、Yahooメールには翻訳機能�
 
 ##### 使用した技術
 
-React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3
+React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3, AWS_Route53
 
 ##### 振り返ってみて
 
-あんまり英語のメール届かない ＆ 定型的なメールなのでなんとなく意味がわかる
+AWSのサービスがお金かかるため、設定を破棄して今は使えない
 
-とは言え、使いどころはありそうだがSESの設定が消えていた
+英語に触れるせっかくの機会なんでできるだけすぐに翻訳を頼らず読解する力を身に着けるためにも不要
+
+<br/><br/>
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mailtranslate.mp4"></video>
 
@@ -478,13 +461,18 @@ React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3
 
 ##### 使用した技術
 
-React, AWS_Lambda(Python), NotionAPI, 楽天API
+React, AWS_APIGateWay, AWS_Lambda(Python), NotionAPI, 楽天API
 
 
 ##### 振り返ってみて
 
 他の人も使えるように変更を加えてる途中で次に作りたいものができたため、途中で止まっている状態。
+
+時間ができたら続きをしたい
+
 自分だけなら使える
+
+バーコードをスキャンするぐらいならすぐ出来るため手軽
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/barcode.mp4"></video>
 
@@ -505,14 +493,21 @@ React, AWS_Lambda(Python), NotionAPI, 楽天API
 
 ##### 使用した技術
 
-React, TypeScript, AWS_S3, AWS_Lambda, Next.js, GraphQL, faunaDB, vercel
+React, TypeScript, AWS_S3, AWS_Lambda, Next.js, GraphQL, faunaDB, vercel, Adobe_Animate
 
 ##### 振り返ってみて
 
 ちゃんと使えるレベルまでは程遠いが遊びレベルでは使える状態
+
+Next.jsやGraphQLを初めて使ったアプリ
+
 動きがもっさりしている
 
 勢いで作り始めたためもう少し設計をしっかりして作り直したい
+
+アイデアは割と好き
+
+<br/><br/>
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/gachagacha.mp4"></video>
 
@@ -523,22 +518,25 @@ React, TypeScript, AWS_S3, AWS_Lambda, Next.js, GraphQL, faunaDB, vercel
 ##### どんなアプリか
 
 複数のアプリでお気に入りにしたレシピを一つに統合できるアプリ
-また、そのレシピに対してメモを残せる
-
+また、そのレシピに対してメモを残せたり、買う必要のある材料をまとめて確認できる
 
 ##### 作ろうと思った理由
 
-複数のレシピアプリを使用したいるが、どのアプリでどのレシピを登録したか忘れたり、作った料理が美味しかったか。次作るとしたらもうちょっとこうしたいなどのメモを残せるようにしたかった
-
+複数のレシピアプリを使用しているが、どのアプリでどのレシピを登録したか忘れたり、作った料理が美味しかったか。次作るとしたらもうちょっとこうしたいなどのメモを残せるようにしたかった
 
 ##### 使用した技術
 
 React, TypeScript, AWS_Lambda(Python), faunaDB, GraphQL, LINEAPI
 
 
-##### 使用した技術
+##### 振り返ってみて
+クックパッド・デリッシュキッチン・クラシルのレシピが乗っているURLを保存できる作りになっている
 
-マナーに反するので使うのはやめておいた
+各アプリでは課金をすることでレシピのお気に入り数を無制限にすることができる。
+
+しかし作成したアプリを使うと、課金せずに無制限でレシピのURLを保存できるため何かしらの規則にに反してそうで使うのはやめておいた。
+
+<br/><br/>
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/recipemanagement.mp4"></video>
 
@@ -552,10 +550,7 @@ React, TypeScript, AWS_Lambda(Python), faunaDB, GraphQL, LINEAPI
 
 ##### 作ろうと思った理由
 
-接触確認アプリ(COCOA)をスマホに入れた時、どういう仕組みか気になって
-GPSの技術を使ってみたくなったから
-
-最初はすれ違い機能みたいなことしたかったが、あまり仕組みがわからなかったためとりあえず出来そうな範囲でやってみることにした
+最初はすれ違い機能がついてるアプリを開発してみたかったが、あまり仕組みがわからなかったためとりあえず出来そうな範囲でやってみることにした
 
 ##### 使用した技術
 
@@ -564,7 +559,26 @@ React
 ##### 振り返ってみて
 
 謎解きやストーリー性を重視する必要がありプログラミング以外の比重が大きい。
-あと、GPSの精度を上手いこと取れないことがあった。
+
+簡単すぎず難しすぎない かつ 答えが導けたときに納得できる 謎解きを作成するの難易度高い
+
+あと、GPSの精度が曖昧で正確に取得できないときがあった
+
+<video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/GPS.mp4"></video>
+
+謎解き1
+<br/><br/>
+<img src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mystery1.png" />
+<br/><br/>
+謎解き2
+<br/><br/>
+<img src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mystery2.png" />
+<br/><br/>
+謎解き3
+<br/><br/>
+<img src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/mystery3.png" />
+<br/><br/>
+
 
 <br/><br/>
 
@@ -586,6 +600,7 @@ React, TypeScript, Lambda, PostgreSQL, 楽天API
 ##### 振り返ってみて
 
 作成途中
+
 
 
 <br/><br/>
