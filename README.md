@@ -4,14 +4,15 @@
 
 2017年 6月 ~ 2018年 09月 
 
+* * *
+
 メインフレーム 運用チーム配属(スケジューラー)
 
 オープン側で言うと、JP1で実現していることを自社開発されたシステムを使用してメインフレームで
 
-JP1 とは
-[Link]("https://e-words.jp/w/JP1.html")
+[JP1 とは]("https://e-words.jp/w/JP1.html")
 
-#####　JCLのサンプル
+##### JCLのサンプル
 
 ファイルのコピー
 ```js
@@ -83,6 +84,8 @@ SORT
 
 2018年 10月 ~ 2021年 12月
 
+* * *
+
 メインフレーム 基盤構築・運用保守チーム配属
 
 メインフレームに関するインフラすべての担当
@@ -110,55 +113,73 @@ SORT
 
 PTFアップ(OSのバージョンアップ時の確認作業), パラメータや監視設定の変更など
 
-* * *
+
+
+
 
 ## 保有資格
 社会人になってから取得した資格一覧
 
 ITは関係ないがTOEICは675点(大学4回生で取得)
 
+* * *
+
+
 資格名: ITパスポート
 
 認定日: 2017-02-05
 
+
 * * *
+
 
 資格名: LPIC-1 (5年経つため期限切れ状態)
 
 認定日: 2017-05-29
 
+
 * * *
+
 
 資格名: ITIL® Foundation Certificate in IT Service Management
 
 認定日: 2017/06/02
 
+
 * * *
+
 
 資格名: 基本情報技術者試験
 
 認定日: 2018-5-16
 
+
 * * *
+
 
 資格名: RPA Developer Foundation Diploma
 
 認定日: 2018-12-08
 
+
 * * *
+
 
 資格名: AWS Certified Solutions Architect – Associate
 
 認定日: 2019-07-17
 
+
 * * *
+
 
 資格名: AWS Certified Solutions Architect - Professional
 
 認定日: 2021-07-11
 
 
-* * *
+
+
 
 ## 独学
 
@@ -168,7 +189,7 @@ HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 
 今後は独学で勉強していたことを仕事にしていきたい
 
-#### 使用した教材
+### 使用した教材
 
 *   Progate
 *   PyQ
@@ -178,7 +199,7 @@ HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 
 * * *
 
-#### 過去に作成したもの
+### 過去に作成したもの
 
 転職活動を機に過去に勉強兼遊びで作成したアプリの振り返りを行う
 
@@ -207,11 +228,11 @@ HTML, CSS, Python(Flask)
 機能としては一応できたが、レスポンシブ対応ができなくて挫折
 
 
-写真しか残っていない
-
 <img src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/foodchoice.png" />
 
-* * *
+
+
+
 
 ### SHARE PUT　2019/8/3
 
@@ -243,7 +264,9 @@ HTML, CSS, Python(Django), heroku
 
 <video controls width="400" height="500" src="https://nozomi-portfolio-video.s3.ap-northeast-1.amazonaws.com/shareput.mp4"></video>
 
-* * *
+
+
+
 
 ### MyBookRecord 2019/09/21
 
