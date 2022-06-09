@@ -6,7 +6,7 @@
 
 基本プロフィール
 
-年齢：28歳
+年齢：もうすぐ28歳
 
 住所：大阪
 
@@ -117,7 +117,7 @@ SORT
 
 <br />
 
-2018年 10月 ~ 2021年 12月：客先にてメインフレーム 基盤構築・運用保守チームに異動
+2018年 10月 - 2021年 12月：客先にてメインフレーム 基盤構築・運用保守チームに異動
 
 メインフレームに関する運用面すべての担当
 
@@ -193,7 +193,7 @@ HTML, CSS, JavaScript, TypeScript, React, Python, AWS
 
 ポートフォリオになるかわからないが、現状のスキル状況を知ったもらうための1つの手段になればいいかなと思う
 
-作成した当時に撮った動画を載せておく
+作成した当時に撮った動画を載せていく
 
 <br/>
 
@@ -386,7 +386,7 @@ Twitter APIの存在を知って使ってみたくなった ＋ 自分がいい�
 
 ##### 使用した技術
 
-React, AWS_APIGateWay, AWS_Lambda, Python, TwitterAPI
+React, AWS_APIGateWay, AWS_Lambda(Python), TwitterAPI
 
 ##### 振り返ってみて
 
@@ -459,7 +459,7 @@ Gメールは翻訳できるっぽいけど、Yahooメールには翻訳機能�
 
 ##### 使用した技術
 
-React, AWS_Lambda, Python, AWS_SES, AWS_Translate, AWS_S3, AWS_Route53
+React, AWS_Lambda(Python), AWS_SES, AWS_Translate, AWS_S3, AWS_Route53
 
 ##### 振り返ってみて
 
@@ -546,7 +546,7 @@ React, AWS_APIGateWay, AWS_Lambda(Python), NotionAPI, 楽天API
 
 ##### 使用した技術
 
-React, TypeScript, AWS_S3, AWS_Lambda, Next.js, GraphQL, faunaDB, vercel, Adobe_Animate
+React, TypeScript, AWS_S3, AWS_Lambda(Python), Next.js, GraphQL, faunaDB, vercel, Adobe_Animate
 
 ##### 振り返ってみて
 
@@ -657,7 +657,7 @@ React
 
 ##### 使用した技術
 
-React, TypeScript, Lambda, PostgreSQL, 楽天API
+React, TypeScript, AWS_Lambda(Python), PostgreSQL, 楽天API
 
 ##### 振り返ってみて
 
